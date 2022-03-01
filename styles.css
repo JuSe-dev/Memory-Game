@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: green;
+}
+span {
+    visibility: hidden;
+}
+.header {
+    text-align: center;
+}
+.gameBoard {
+    text-align: center;
+}
+.card_row {
+    margin-bottom: 0.4rem;
+}
+.card {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    background-color: black;
+    border: solid thin green;
+    display: inline-block;
+    border-radius: 0.2rem;
+    padding-top: 0.6rem;
+    margin-bottom: auto;
+}
+.scores {
+    text-align: center;
+}
+#score,
+#failed {
+    color: aliceblue;
+}
+.btns {
+    text-align: center;
+}
+#btn {
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
